@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
     background-color: #afdde5;
     font-size: 16px;
@@ -45,6 +51,8 @@ body{
 }
 .icon{
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .nav a{
     text-decoration: none;
@@ -60,10 +68,16 @@ body{
     text-decoration: none;
     width: fit-content;
     font-size: 20px;
+    transition: .3s;
+
 }
 .button:hover {
     background: #0a3e88;
     border-color: #58a6ff;
+
+}
+.icon img{
+    width: 110px;
 }
 
 
@@ -88,6 +102,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content:space-around;
+    max-width: 500px;
     
 }
 .hero-items h2{
@@ -97,9 +112,12 @@ body{
 }
 .hero-items p{
     margin-top: 0;
+    line-height: 1.7;
 }
 .hero img{
     border-radius: 20px;
+    object-fit: cover;
+    box-shadow: 0 10px 30px rgba(0,0,0,.25);
 }
 
 /* Info Section */
@@ -111,9 +129,13 @@ body{
     background-color: #afdde5;
     text-align: center;
     font-size: 25px;
-    color: orangered;
+    color: #003135;;
     margin-bottom: 20px;
     
+}
+.infosec h2{
+    color: #964734;
+    padding: 20px;
 }
 
 .infosec-items{
@@ -127,6 +149,8 @@ body{
     max-width: 200px;
     width: 100%;
     font-size: 16px;
+    
+    
 }
 
 .infosec-child img {
@@ -144,7 +168,7 @@ body{
     /* align-items: center; */
     text-align: center;
     list-style: none;
-    background-color: white;
+    background-color: #024950;
     border-radius: 15px;
     padding: 40px 0;
     margin: 0 20px;
@@ -154,13 +178,18 @@ body{
 
 .quotes h3{
     font-size: 22px;
-    color: #0d7377;
+    color: #0FA4AF;
     
 }
 
 .quotes blockquote{
     font-size: 16px;
-    color: #444;
+    color: #EAF7FA;
 }
-
+.quotes li{
+    max-width: 220px;
+    background: #003135;
+    padding: 20px;
+    border-radius: 15px;
+}
 
