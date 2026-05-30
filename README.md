@@ -1,6 +1,6 @@
 # The Odin Project — Landing Page
 
-Second project from The Odin Project Foundations course. Built a full landing page from scratch using HTML and CSS — no frameworks, no templates.
+Second project from The Odin Project Foundations course. Built a full landing page from scratch using HTML and CSS.
 
 ## What I Learned
 
