@@ -193,3 +193,19 @@ body{
     border-radius: 15px;
 }
 
+.cta{
+    background-color: #0FA4AF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    margin: 100px 150px;
+    gap: 100px;
+    border-radius: 15px;
+    color: white;
+    flex: 1;
+}
+.cta-items{
+    display: flex;
+    flex-direction: column;
+}
