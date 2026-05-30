@@ -1,5 +1,5 @@
 body{
-    background-color: white;
+    background-color: #afdde5;
     font-size: 16px;
 }
 /*   Header Section */
@@ -65,7 +65,13 @@ body{
     background: #0a3e88;
     border-color: #58a6ff;
 }
+
+
+
 /* Hero Section  */
+
+
+
 .hero{
     display: flex;
     padding: 20px;
@@ -96,5 +102,65 @@ body{
     border-radius: 20px;
 }
 
+/* Info Section */
+
+.infosec{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    background-color: #afdde5;
+    text-align: center;
+    font-size: 25px;
+    color: orangered;
+    margin-bottom: 20px;
+    
+}
+
+.infosec-items{
+    display: flex;
+    justify-content:space-around;
+}
+
+.infosec-child{
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    width: 100%;
+    font-size: 16px;
+}
+
+.infosec-child img {
+    max-width: 200px;
+    width: 100%;
+    border-radius: 15px;
+    border: 1px solid #003135;
+}
+
+/* Quota */
+
+.quotes{
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    text-align: center;
+    list-style: none;
+    background-color: white;
+    border-radius: 15px;
+    padding: 40px 0;
+    margin: 0 20px;
+  
+
+}
+
+.quotes h3{
+    font-size: 22px;
+    color: #0d7377;
+    
+}
+
+.quotes blockquote{
+    font-size: 16px;
+    color: #444;
+}
 
 
